@@ -45,3 +45,4 @@ const data = [
       "https://media-cdn.tripadvisor.com/media/photo-s/0a/e3/bc/a7/caption.jpg",
   },
 ];
+export default data;
