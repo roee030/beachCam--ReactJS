@@ -6,7 +6,16 @@ export default function BeachCam(props) {
   console.log(findVideo[0].src);
   return (
     <div>
-      <iframe src="https://g0.ipcamlive.com/player/player.php?alias=freegullsouth" style="opacity: 1; visibility: visible;></iframe>
+      <iframe
+        width="100%"
+        height="1800px"
+        src="https://g2.ipcamlive.com/player/player.php?alias=galyamsurf&autoplay=1"
+      ></iframe>
+      <iframe
+        width="100%"
+        height="1800px"
+        src="http://server1.reali-tech.com/LiveStreamFlash/Demo/inter/inter20.html"
+      ></iframe>
     </div>
   );
 }
